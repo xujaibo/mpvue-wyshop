@@ -18,7 +18,13 @@ export function formatTime (date) {
   return `${t1} ${t2}`
 }
 
+
+const config = {
+  apiBaseUrl: 'http://118.25.222.68:5757/heyushuo'
+}
+export {config}
+
 export default {
   formatNumber,
-  formatTime
+  formatTime,
 }
